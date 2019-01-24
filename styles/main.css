@@ -1,0 +1,36 @@
+/*
+Colours
+  purple: #4834d4
+  dark-grey: #333
+
+  orange: #e67e22
+  blue: #3498db
+*/
+
+body {
+  color: #333;
+}
+
+.btn {
+  border: none;
+  display: inline-block;
+  min-height: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+.btn--reset {
+  background-color: #4834d4;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttons .btn {
+  flex-basis: 100%;
+  margin-bottom: 4px;
+}
+.buttons .btn:last-child {
+  margin-bottom: 0;
+}
